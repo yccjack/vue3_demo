@@ -54,11 +54,11 @@ export default {
     toHome(e) {
       if ("1" === e) {
         this.$router.push({
-          path: `/home`,
+          path: `/`,
         });
       } else {
         this.$router.push({
-          path: `/`,
+          path: `/circle`,
         });
       }
     },

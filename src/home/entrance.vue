@@ -5,7 +5,7 @@
     <v-main class="centered">
       <!-- 给应用提供合适的间距 -->
       <v-container fluid>
-        <home></home>
+        <router-view></router-view>
       </v-container>
     </v-main>
     <v-footer app>
@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import navigate from './navigate.vue'
-import home from "@/components/home";
+import navigate from '../components/navigate.vue'
+import home from "@/home/home";
 
 export default {
   name: "entrancePage",

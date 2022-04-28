@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import carousel from './carousel.vue'
+import carousel from '../components/carousel.vue'
 import leftList from '../pages/leftList.vue'
 import archive from '../pages/archive.vue'
 

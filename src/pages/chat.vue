@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <navigate/>
     <v-main class="centered">
       <!-- 给应用提供合适的间距 -->
       <v-container fluid>
