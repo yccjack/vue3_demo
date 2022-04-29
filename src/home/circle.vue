@@ -1,10 +1,10 @@
 <template>
   <!-- App.vue -->
   <v-row>
-    <v-col cols="2" >
-    <circleType/>
+    <v-col cols="3" >
+    <leftCircle/>
     </v-col>
-    <v-col cols="7">
+    <v-col cols="6">
       <circlePolymerization/>
     </v-col>
 
@@ -17,14 +17,14 @@
 <script>
 import user from '../components/user.vue'
 import circlePolymerization from '../components/circle/circlePolymerization.vue'
-import circleType from '../components/circle/circleType.vue'
+import leftCircle from '../components/circle/leftCircle.vue'
 
 export default {
   name: "circleHome",
   components: {
     user,
     circlePolymerization,
-    circleType
+    leftCircle
   }
 }
 
